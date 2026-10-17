@@ -1,0 +1,205 @@
+{
+  "sample": {
+    "tenders": 35,
+    "bid_records": 5458,
+    "unique_bidder_labels": 845,
+    "opening_years": {
+      "2024": 14,
+      "2025": 21
+    },
+    "agencies": {
+      "SCP": 20,
+      "HCM": 6,
+      "MCS": 9
+    },
+    "status_counts": {
+      "awarded": 35,
+      "ranked": 2818,
+      "below_floor": 2466,
+      "above_estimate": 13,
+      "invalid": 126
+    },
+    "ranked_nonexcluded_records": 2853
+  },
+  "metrics": {
+    "award_gap": {
+      "spearman": -0.7088005597841261,
+      "partial_rank": -0.5026393593718891
+    },
+    "minimum_ranked": {
+      "spearman": -0.6618554851444104,
+      "partial_rank": -0.423913806257859
+    },
+    "median_all": {
+      "spearman": -0.31235991454306394,
+      "partial_rank": -0.1523426950669912
+    },
+    "median_noninvalid": {
+      "spearman": -0.3209081221640271,
+      "partial_rank": -0.1521986085646233
+    },
+    "median_ranked": {
+      "spearman": -0.4206839225923185,
+      "partial_rank": -0.3647521995411845
+    },
+    "q25_all": {
+      "spearman": -0.34627247592458993,
+      "partial_rank": -0.17431745308684737
+    },
+    "q75_all": {
+      "spearman": -0.3957399724852456,
+      "partial_rank": -0.2364069019276218
+    },
+    "iqr_all": {
+      "spearman": -0.18413680022861642,
+      "partial_rank": -0.11921329011758987
+    }
+  },
+  "descriptive_threshold_groups": {
+    "below_20": {
+      "count": 11,
+      "median_award_gap": 0.4891576243163097
+    },
+    "at_least_20": {
+      "count": 24,
+      "median_award_gap": 0.008057747415447798
+    }
+  },
+  "fixed_subset_diagnostics": [
+    {
+      "m": 2,
+      "tenders": 32,
+      "actual_award_rho_vs_ranked_count": -0.6786434577825483,
+      "expected_minimum_rho_vs_ranked_count": -0.10467461220795111
+    },
+    {
+      "m": 5,
+      "tenders": 30,
+      "actual_award_rho_vs_ranked_count": -0.6100789892017747,
+      "expected_minimum_rho_vs_ranked_count": 0.40605184365180125
+    },
+    {
+      "m": 10,
+      "tenders": 25,
+      "actual_award_rho_vs_ranked_count": -0.3861538461538461,
+      "expected_minimum_rho_vs_ranked_count": 0.6746153846153846
+    }
+  ],
+  "award_equals_minimum_subset": {
+    "tenders": 30,
+    "spearman": -0.6619186055295786,
+    "partial_rank": -0.4641803598071701
+  },
+  "leave_one_out_rho_range": [
+    -0.767925537259583,
+    -0.6826137296213739
+  ],
+  "rounding_rho": {
+    "unrounded": -0.7088005597841261,
+    "floor": -0.7088005597841261,
+    "ceiling": -0.7088005597841261,
+    "nearest": -0.7088005597841261
+  },
+  "selection_cases": [
+    {
+      "event_id": "2024_SCP_01313_20240126_1",
+      "announcement_id": "SCP0005",
+      "agency": "SCP",
+      "year": "2024",
+      "floor": 82.995,
+      "base": 318300000.0,
+      "n": 38,
+      "n_ranked": 24,
+      "award_gap": 0.013414727850697089,
+      "median_all": 0.2002490066220301,
+      "median_noninvalid": 0.2002490066220301,
+      "median_ranked": 0.5140921226511077,
+      "minimum_ranked": 0.001672136047920799,
+      "q25_all": -0.1860749810724946,
+      "q75_all": 0.632524893844167,
+      "iqr_all": 0.8185998749166616,
+      "award_is_minimum_ranked": false,
+      "selection_difference_krw": 37408
+    },
+    {
+      "event_id": "2024_SCP_05046_20240227_1",
+      "announcement_id": "SCP0023",
+      "agency": "SCP",
+      "year": "2024",
+      "floor": 82.995,
+      "base": 205600000.0,
+      "n": 150,
+      "n_ranked": 19,
+      "award_gap": 0.0167196794142504,
+      "median_all": -0.4321360061483517,
+      "median_noninvalid": -0.4321360061483517,
+      "median_ranked": 0.17997427529617296,
+      "minimum_ranked": 0.011390687941540219,
+      "q25_all": -0.6732362727269228,
+      "q75_all": -0.21863211274998023,
+      "iqr_all": 0.45460415997694253,
+      "award_is_minimum_ranked": false,
+      "selection_difference_krw": 11030
+    },
+    {
+      "event_id": "2024_MCS_36317_20240819_1",
+      "announcement_id": "MCS0100",
+      "agency": "MCS",
+      "year": "2024",
+      "floor": 87.995,
+      "base": 65602750.0,
+      "n": 11,
+      "n_ranked": 11,
+      "award_gap": 0.5492803741742954,
+      "median_all": 0.23970680704483507,
+      "median_noninvalid": 0.23970680704483507,
+      "median_ranked": 0.23970680704483507,
+      "minimum_ranked": 0.0378904107745969,
+      "q25_all": 0.1144634478240083,
+      "q75_all": 0.5192970935821107,
+      "iqr_all": 0.40483364575810243,
+      "award_is_minimum_ranked": false,
+      "selection_difference_krw": 336000
+    },
+    {
+      "event_id": "2024_SCP_64841_20250113_1",
+      "announcement_id": "SCP0132",
+      "agency": "SCP",
+      "year": "2025",
+      "floor": 82.995,
+      "base": 708100000.0,
+      "n": 283,
+      "n_ranked": 134,
+      "award_gap": 0.01417347980385545,
+      "median_all": -0.02164117122240989,
+      "median_noninvalid": -0.02164117122240989,
+      "median_ranked": 0.3015750264665992,
+      "minimum_ranked": 0.010664998326989108,
+      "q25_all": -0.31000895517679355,
+      "q75_all": 0.27971838823648176,
+      "iqr_all": 0.5897273434132753,
+      "award_is_minimum_ranked": false,
+      "selection_difference_krw": 24911
+    },
+    {
+      "event_id": "2025_MCS_08229_20250318_1",
+      "announcement_id": "MCS0027",
+      "agency": "MCS",
+      "year": "2025",
+      "floor": 87.995,
+      "base": 136101270.0,
+      "n": 2,
+      "n_ranked": 2,
+      "award_gap": 8.792583489593184,
+      "median_all": 4.659165800402807,
+      "median_noninvalid": 4.659165800402807,
+      "median_ranked": 4.659165800402807,
+      "minimum_ranked": 0.5257481112124291,
+      "q25_all": 2.592456955807618,
+      "q75_all": 6.725874644997996,
+      "iqr_all": 4.133417689190377,
+      "award_is_minimum_ranked": false,
+      "selection_difference_krw": 11275958
+    }
+  ]
+}

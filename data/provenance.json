@@ -1,0 +1,22 @@
+{
+  "source_files": [
+    {
+      "name": "results.zip",
+      "sha256": "18f5c566045b626beaa31c172abecee584144448448846824111ca749da7d83a"
+    },
+    {
+      "name": "공고별분석_2024_2025(1).csv",
+      "sha256": "0af4389d19642dd6b2f102c60543f4599d7a2021a29ebb7f7056473dae9155f2"
+    },
+    {
+      "name": "혼합간장_공고명세.zip",
+      "sha256": "ccaffd80c0b7241624367bd36a2f9a701b7a1751ed6ae089da2295db6e438afb"
+    }
+  ],
+  "verified_bidder_xml_pages": 78,
+  "key_fields_reconciled": 8,
+  "tenders": 35,
+  "bid_records": 5458,
+  "unique_bidder_ids": 845,
+  "identifier_policy": "Stable opaque B0001-style labels; original business identifiers, names, representatives and staff contacts excluded. This is pseudonymization, not guaranteed anonymization; tender/amount combinations may be linkable to public records."
+}
